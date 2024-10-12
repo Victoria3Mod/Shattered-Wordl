@@ -1,0 +1,170 @@
+﻿BGY = {
+	color = hsv{ 1.01  0.8  0.5 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { french }
+	
+	capital = STATE_BURGUNDY
+
+}
+
+MSC = { # Muscogee
+	color = { 108 139 208 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { caddoan }
+	
+	capital = STATE_FLORIDA
+}
+
+NNV = { # Nunavut
+	color = { 205 214 216 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { inuit }
+	
+	capital = STATE_NUNAVUT
+}
+
+ATB = { # Athabaska
+	color = { 88 105 137 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { athabaskan }
+	
+	capital = STATE_NORTHWEST_TERRITORIES
+}
+
+CCM = { # O'odham Country
+	color = hsv{ 0.19 0.61 0.67 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { oodham }
+	
+	capital = STATE_CHIHUAHUA
+}
+
+TWT = { # Tawantinsuyu
+	color = { 125 92 110 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { quechua }
+	
+	capital = STATE_LIMA
+}
+
+AYM = { # Aymara
+	color = { 173 211 239 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { aimara }
+	
+	capital = STATE_LA_PAZ
+}
+
+XHO = { # Xhosa
+	color = { 88 80 163 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { xhosa }
+	capital = STATE_EASTERN_CAPE
+}
+
+KHN = { # Kachin
+	color = { 130 186 198 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { kachin }
+	
+	capital = STATE_KACHIN
+}
+
+HTH = { # Hanthawaddy
+	color = { 140 210 160 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { mon }
+	
+	capital = STATE_PEGU
+}
+
+KRN = { # Karen
+	color = { 72 153 99 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { karen }
+	
+	capital = STATE_PEGU
+}
+
+ULR = { # Uluru
+	color = { 112 54 16 }
+	
+	tier = principality
+	
+	country_type = unrecognized
+	
+	cultures = { aborigine }
+	
+	capital = STATE_NORTHERN_TERRITORY
+}
+
+TNS = {
+	color = { 11 115 39 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { siberian }
+	capital = STATE_OKHOTSK
+}
+
+FER = {
+ 	color = { 207 25 25 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { siberian inuit }
+	capital = STATE_OKHOTSK
+}
+
+SUD = { # Sudanese
+	color = { 189 159 69 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { sudanese beja bedouin }
+	capital = STATE_BLUE_NILE
+}
