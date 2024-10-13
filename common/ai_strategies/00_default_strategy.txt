@@ -2230,6 +2230,20 @@ ai_strategy_default = {
 			}
 			add = 1
 		}
+		
+		# Country unification for England, France, Russia
+		if = {
+			limit = {
+			has_technology_researched = nationalism
+				scope:target_country = {
+					any_state = {
+						has_claim_by = root
+					}
+				}
+			}
+
+			add = 3
+		}	
 	
 		# Greek Nationalism
 		if = {
@@ -2417,7 +2431,7 @@ ai_strategy_default = {
 				scope:target_country = { is_country_type = unrecognized }
 			}
 			
-			add = 0.5
+			add = 3
 		}
 
 		# Higher aggression against subject/overlord if domineering or rebellious
