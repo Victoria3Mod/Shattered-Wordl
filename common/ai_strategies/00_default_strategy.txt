@@ -2230,20 +2230,6 @@ ai_strategy_default = {
 			}
 			add = 1
 		}
-		
-		# Country unification for England, France, Russia
-		if = {
-			limit = {
-			has_technology_researched = nationalism
-				scope:target_country = {
-					any_state = {
-						has_claim_by = root
-					}
-				}
-			}
-
-			add = 3
-		}	
 	
 		# Greek Nationalism
 		if = {
@@ -2422,7 +2408,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 1.0
+		value = 2.0
 		
 		# More fighting between unrecognized powers
 		if = {
@@ -2431,7 +2417,7 @@ ai_strategy_default = {
 				scope:target_country = { is_country_type = unrecognized }
 			}
 			
-			add = 3
+			add = 10
 		}
 
 		# Higher aggression against subject/overlord if domineering or rebellious
@@ -2485,6 +2471,20 @@ ai_strategy_default = {
 					}
 				}
 			}
+			add = 10
+		}
+
+		# Country unification for England, France, Russia
+		if = {
+			limit = {
+			has_technology_researched = nationalism
+				scope:target_country = {
+					any_state = {
+						has_claim_by = root
+					}
+				}
+			}
+
 			add = 10
 		}			
 		
