@@ -100,6 +100,8 @@ STATES = {
 		}
 		
 		add_homeland = cu:spanish
+		
+		add_claim=c:CAS
 	}
 	s:STATE_HOLLAND = {
 		create_state = {
@@ -1131,6 +1133,7 @@ STATES = {
 		add_homeland = cu:spanish
 		add_homeland = cu:galician
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_ASTURIAS = {
 		create_state = {
@@ -1140,6 +1143,7 @@ STATES = {
 		
 		add_homeland = cu:spanish
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_CASTILE = {
 		create_state = {
@@ -1149,6 +1153,7 @@ STATES = {
 		
 		add_homeland = cu:spanish
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_ARAGON = {
 		create_state = {
@@ -1158,6 +1163,7 @@ STATES = {
 		
 		add_homeland = cu:spanish
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_NAVARRA = {
 		create_state = {
@@ -1168,6 +1174,7 @@ STATES = {
 		add_homeland = cu:spanish
 		add_homeland = cu:basque
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_CATALONIA = {
 		create_state = {
@@ -1178,6 +1185,7 @@ STATES = {
 		add_homeland = cu:spanish
 		add_homeland = cu:catalan
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_BALEARES = {
 		create_state = {
@@ -1188,6 +1196,7 @@ STATES = {
 		add_homeland = cu:spanish
 		add_homeland = cu:catalan
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_NEW_SOUTH_WALES = {
 		create_state = {
@@ -2890,6 +2899,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:scottish
+		add_claim = c:ENG
 	}
 	s:STATE_MIDLANDS = {
 		create_state = {
@@ -2922,6 +2932,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:scottish
+		add_claim = c:ENG
 	}
 	s:STATE_ULSTER = {
 		create_state = {
@@ -2944,6 +2955,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:irish
+		add_claim = c:ENG
 	}
 	s:STATE_LEINSTER = {
 		create_state = {
@@ -2952,6 +2964,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:irish
+		add_claim = c:ENG
 	}
 	s:STATE_LANGUEDOC = {
 		create_state = {
@@ -2961,6 +2974,7 @@ STATES = {
 		
 		add_homeland = cu:french
 		add_homeland = cu:occitan
+		add_claim = c:FRA
 	}
 	s:STATE_RHONE = {
 		create_state = {
@@ -2971,6 +2985,7 @@ STATES = {
 		add_homeland = cu:french
 		add_homeland = cu:occitan
 		add_homeland = cu:francoprovencal
+		add_claim = c:FRA
 	}
 	s:STATE_FRENCH_LOW_COUNTRIES = {
 		create_state = {
@@ -2997,6 +3012,8 @@ STATES = {
 		add_homeland = cu:french
 		add_homeland = cu:south_german
 		add_homeland = cu:alemannic
+		
+		add_claim = c:FRA
 	}
 	s:STATE_POITOU = {
 		create_state = {
@@ -3014,6 +3031,7 @@ STATES = {
 		
 		add_homeland = cu:french
 		add_homeland = cu:occitan
+		add_claim = c:FRA
 	}
 	s:STATE_AUVERGNE_LIMOUSIN = {
 		create_state = {
@@ -3042,6 +3060,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:french
+		add_claim = c:FRA
 	}
 	s:STATE_CHAMPAGNE = {
 		create_state = {
@@ -3050,6 +3069,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:french
+		add_claim = c:FRA
 	}
 	s:STATE_FRANCHE_COMTE = {
 		create_state = {
@@ -3058,6 +3078,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:french
+		add_claim = c:FRA
 	}
 	s:STATE_LORRAINE = {
 		create_state = {
@@ -3066,6 +3087,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:french
+		add_claim = c:FRA
 	}
 	s:STATE_AQUITAINE = {
 		create_state = {
@@ -3075,6 +3097,8 @@ STATES = {
 		
 		add_homeland = cu:french
 		add_homeland = cu:occitan
+		
+		add_claim = c:FRA
 	}
 	s:STATE_MAINE_ANJOU = {
 		create_state = {
@@ -3083,6 +3107,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:french
+		add_claim = c:FRA
 	}
 	s:STATE_ORLEANS = {
 		create_state = {
@@ -3193,6 +3218,7 @@ STATES = {
 		
 		add_homeland = cu:spanish
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_BADAJOZ = {
 		create_state = {
@@ -3201,6 +3227,7 @@ STATES = {
 		}
 		add_homeland = cu:spanish
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_VALENCIA = {
 		create_state = {
@@ -3210,6 +3237,7 @@ STATES = {
 		add_homeland = cu:catalan
 		add_homeland = cu:spanish
 		add_claim = c:SPA
+		add_claim = c:CAS
 		add_claim = c:CAT
 	}
 	s:STATE_TOLEDO = {
@@ -3219,6 +3247,7 @@ STATES = {
 		}
 		add_homeland = cu:spanish
 		add_claim = c:SPA
+		add_claim = c:CAS
 	}
 	s:STATE_WALLONIA = {
 		create_state = {
@@ -7339,6 +7368,7 @@ STATES = {
 		}
 		
 		add_homeland = cu:irish
+		add_claim = c:ENG
 	}
 
 	s:STATE_FERGANA = {
